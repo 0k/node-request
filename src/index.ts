@@ -1,7 +1,6 @@
 import http from 'http'
 import https from 'https'
-
-import { t, e } from '@0k.io/types-request'
+import { t, e } from '@0k/types-request'
 
 const requesters: any = { http, https }
 
